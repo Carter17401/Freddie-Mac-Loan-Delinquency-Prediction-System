@@ -100,8 +100,9 @@ python scripts/model_evaluation.py
 
 ### 🚀 Notes:
 
-- If your data files change, **update the file paths in [`notebooks/Model_Training.ipynb`](notebooks/Model_Training.ipynb`) accordingly** to ensure the correct dataset is used.  
-- Once the workflow is stable, **consider migrating the model training process to `scripts/model_training.py`** for automation and scalability.  
+- If your data files change, update the file paths in the scripts accordingly.
+- You can modify hyperparameters or model selection in `scripts/model_training.py`.
+- Once the workflow is stable, consider automating the pipeline using Apache Airflow.
 ---
 
 ## 📢 Future Improvements  

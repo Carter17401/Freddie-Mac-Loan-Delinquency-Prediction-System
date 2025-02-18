@@ -27,10 +27,9 @@ The model leverages **historical loan performance data (2000-2018)** to predict 
 │    │── data_cleaning.py         # Cleans missing values, standardizes columns
 │    │── feature_engineering.py   # Extracts and transforms delinquency trends
 │    │── data_merging.py          # Merges cleaned data with historical records
-│── 📂 notebooks/         # Exploratory and model development notebooks
-│    │── EDA.ipynb                   # Exploratory Data Analysis
 │    │── Model_Training.ipynb        # Train different models (Logistic Regression, Random Forest, XGBoost)
 │    │── Model_Evaluation.ipynb      # Evaluate models (Precision, Recall, AUC-ROC, Confusion Matrix)
+│── 📂 notebooks/         # Exploratory and model development notebooks
 │── 📄 README.md
 │── 📄 requirements.txt
 ```

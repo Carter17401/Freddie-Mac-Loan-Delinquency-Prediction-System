@@ -1,0 +1,22 @@
+# Core Libraries
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.2.2
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Machine Learning & Model Evaluation
+xgboost==1.7.3
+lightgbm==3.3.5
+imbalanced-learn==0.10.1
+
+# Data Processing
+category_encoders==2.6.0  # For one-hot encoding and categorical transformations
+
+# Jupyter Notebook (if needed for development)
+jupyterlab==3.6.1
+notebook==6.5.4
+
+# Utilities
+tqdm==4.65.0  # Progress bars
+joblib==1.2.0  # Parallel processing

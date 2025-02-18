@@ -83,14 +83,21 @@ python scripts/data_cleaning.py       # Clean and preprocess data
 python scripts/feature_engineering.py # Transform data for model training
 python scripts/data_merging.py        # Merge with historical loan data
 ```
-### 5️⃣ Train & Evaluate Models (Jupyter Notebook)
-  1. Launch Jupyter Notebook:
-  ```bash
-    jupyter notebook
-  ```
-2. **Open and run:**  
-   📌 **[`notebooks/Model_Training.ipynb`](notebooks/Model_Training.ipynb)** – Train different models (Logistic Regression, Random Forest, XGBoost).  
-   📌 **[`notebooks/Model_Evaluation.ipynb`](notebooks/Model_Evaluation.ipynb)** – Evaluate model performance (Precision, Recall, AUC-ROC).  
+### 5️⃣ Apply One-Hot Encoding
+Convert categorical variables into numerical format for model training:
+```bash
+python scripts/one_hot_encoding.py
+```
+### 6️⃣ Train different models (Logistic Regression, Random Forest, XGBoost).  
+Run the model training script:
+```bash
+python scripts/model_training.py
+```
+### 7️⃣ Evaluate Model Performance (Includes EDA)
+Once the model is trained, analyze performance using EDA, metrics, and visualizations:
+```bash
+python scripts/model_evaluation.py
+```
 
 ### 🚀 Notes:
 
